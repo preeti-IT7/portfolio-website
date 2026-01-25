@@ -417,6 +417,43 @@ html {
   margin-bottom: 20px;
   font-size: 14px;
 }
+/* ===== MOBILE RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+  .hero {
+    padding-left: 5%;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .about-card {
+    grid-template-columns: 1fr;
+    padding: 30px;
+  }
+
+  .contact-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .bloom-container {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    height: auto;
+    padding: 10px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
 
 
 
