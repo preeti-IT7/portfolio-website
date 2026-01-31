@@ -386,3 +386,41 @@ footer {
     gap: 10px;
   }
 }
+#form-status {
+  margin-top: 12px;
+  font-size: 14px;
+  text-align: center;
+}
+/* HAMBURGER MENU */
+.menu-toggle {
+  display: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: block;
+    color: #fff;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background: #000;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .nav-links li {
+    padding: 15px 0;
+  }
+}
